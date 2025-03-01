@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Mohamed SENHOURY
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Mohamed
+last_name: SENHOURY
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🥅
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +20,182 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Data Scientist | Generative AI & NLP Specialist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: ''
+    url: ''
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:m.asenhoury@hotmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/mohamed-senhoury
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/mohamed-senhoury/
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Natural Language Processing (NLP)
+  - Data Science
+  - Cloud Computing
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - area: MSc in Artificial Intelligence & Data Science for Business
+    institution: Aivancity School for Technology, Business & Society
+    date_start: 2021-09-01
+    date_end: 2024-09-01
+  - area: Engineering in Automation & Industrial IT
+    institution: University of Technology of Troyes
+    date_start: 2019-09-01
+    date_end: 2021-07-01
+  - area: DUT in Mechanical and Production Engineering
+    institution: IUT of Saint-Denis (University Paris 13)
+    date_start: 2017-09-01
+    date_end: 2019-06-01
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - position: NLP Developer
+    company_name: Alstom
+    company_url: https://www.alstom.com/
+    date_start: 2023-11-01
+    date_end: 2024-11-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developed and optimized LLM models for unstructured data classification.
+      - Implemented Few-Shot Learning techniques and DBSCAN clustering for data standardization.
+      - Used GPT-4, LLaMA, Falcon, LangChain, Hugging Face Transformers, and OpenAI API.
+
+  - position: Data Science Intern
+    company_name: Alstom
+    date_start: 2023-05-01
+    date_end: 2023-09-01
+    summary: |
+      - Worked on LLM-based hierarchical classification for unstructured data.
+
+  - position: Data Engineering (Clinic IA)
+    company_name: GererMesAffaires
+    date_start: 2023-01-01
+    date_end: 2023-03-01
+    summary: |
+      - Built a Flask API for invoice data extraction using Python and Pytesseract.
+
+  - position: Data Science Intern
+    company_name: Alstom
+    date_start: 2022-05-01
+    date_end: 2022-09-01
+    summary: |
+      - Developed KPIs and data standardization tools using Dataiku and Azure.
+
+  - position: Data Engineer (Clinic IA)
+    company_name: BubbleYou
+    date_start: 2022-01-01
+    date_end: 2022-04-01
+    summary: |
+      - Introduced NLP techniques with Python for sentiment analysis.
+
+  - position: Python Developer (Clinic IA)
+    company_name: MerciYanis
+    date_start: 2021-09-01
+    date_end: 2022-04-01
+    summary: |
+      - Developed an AI-powered chatbot.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Artificial Intelligence & NLP
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+      - name: GPT-4, LLaMA, Falcon, T5, BERT
+        icon: brain
+      - name: LangChain, Hugging Face Transformers, OpenAI API
+        icon: atom
+      - name: Prompt Engineering, Retrieval-Augmented Generation (RAG)
+        icon: lightbulb
+
+  - name: Machine & Deep Learning
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: Python (NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch)
+        icon: code
+      - name: Data Science (Matplotlib, Seaborn, OpenCV)
+        icon: chart-line
+      - name: NLP (NLTK, SpaCy)
+        icon: comment
+
+  - name: Databases & Big Data
+    items:
+      - name: PostgreSQL, MySQL, SQLite, MongoDB
+        icon: database
+      - name: Apache Spark
+        icon: fire
+
+  - name: Deployment & Cloud Computing
+    items:
+      - name: Docker, Kubernetes, MLflow
+        icon: cloud
+      - name: Azure AI
+        icon: microsoft
+
+  - name: Development & Collaboration Tools
+    items:
+      - name: Git, GitHub, GitLab
+        icon: git
+      - name: Notion, VS Code
+        icon: laptop
 
 languages:
-  - name: English
+  - name: French
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: English
+    percent: 90
+  - name: Arabic
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
----
+  - title: Azure AI Fundamentals
+    url: https://www.microsoft.com/
+    date: '2022-10-01'
+    awarder: Microsoft
+
+  - title: Azure Fundamentals
+    url: https://www.microsoft.com/
+    date: '2022-03-01'
+    awarder: Microsoft
+
+  - title: Generative AI Career Preparation
+    url: https://www.linkedin.com/learning/certificates/1caa2b69013bd8ccd1cb77cf259aced681788b293e381e0f274209f11d161755?trk=share_certificate
+    date: '2024-02-01'
+    awarder: Microsoft & LinkedIn Learning
+
+  - title: AI for Business Leaders
+    url: https://www.linkedin.com/
+    date: '2024-02-01'
+    awarder: Microsoft & LinkedIn Learning
+
+  - title: Cybersecurity Career Preparation
+    url: https://www.linkedin.com/
+    date: '2024-02-01'
+    awarder: Microsoft & LinkedIn Learning
+
+  - title: Data Analyst Career Preparation
+    url: https://www.linkedin.com/
+    date: '2024-02-01'
+    awarder: Microsoft & LinkedIn Learning
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a **Data Scientist** specialized in **Generative AI** and **Natural Language Processing (NLP)**, with expertise in **Large Language Models (LLMs)** for automating data processing and classification.
+
+  I hold an **MSc in Artificial Intelligence & Data Science for Business** from Aivancity, and have gained significant experience in **machine learning, data engineering, and cloud computing** through various projects, including my work at **Alstom**. My focus has been on **data automation and standardization** using cutting-edge technologies like **GPT-4, LLaMA, Falcon, BERT, LangChain**, and **Hugging Face Transformers**.
+
+  I am currently **seeking new opportunities in AI, NLP, and data science**, both in **France and internationally**. Passionate about innovation and problem-solving, I am eager to contribute my expertise to ambitious and impactful projects.
+
+  **📍 Based in France | 🌍 Open to global opportunities**
+---
