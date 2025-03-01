@@ -190,3 +190,4 @@ awards:
     awarder: Microsoft & LinkedIn Learning
 
 ## About Me
+---
