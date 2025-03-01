@@ -190,12 +190,3 @@ awards:
     awarder: Microsoft & LinkedIn Learning
 
 ## About Me
-
-I am a **Data Scientist** specialized in **Generative AI** and **Natural Language Processing (NLP)**, with expertise in **Large Language Models (LLMs)** for automating data processing and classification.
-
-  I hold an **MSc in Artificial Intelligence & Data Science for Business** from Aivancity, and have gained significant experience in **machine learning, data engineering, and cloud computing** through various projects, including my work at **Alstom**. My focus has been on **data automation and standardization** using cutting-edge technologies like **GPT-4, LLaMA, Falcon, BERT, LangChain**, and **Hugging Face Transformers**.
-
-  I am currently **seeking new opportunities in AI, NLP, and data science**, both in **France and internationally**. Passionate about innovation and problem-solving, I am eager to contribute my expertise to ambitious and impactful projects.
-
-  **📍 Based in France | 🌍 Open to global opportunities**
----
