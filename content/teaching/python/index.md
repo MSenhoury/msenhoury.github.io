@@ -1,140 +1,218 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
-date: 2023-10-24
-type: docs
-math: false
-tags:
-  - Python
-image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+title: "Mohamed SENHOURY"
+role: "Data Scientist | Generative AI & NLP Specialist"
+superuser: true
+highlight_name: true
+
+social:
+  - icon: "at-symbol"
+    url: "mailto:m.asenhoury@hotmail.com"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/mohamed-senhoury/"
+  - icon: "brands/github"
+    url: "https://github.com/mohamed-senhoury"
+
+interests:
+  - Artificial Intelligence
+  - Natural Language Processing (NLP)
+  - Data Science
+  - Cloud Computing
+
+# Short bio for blog post footer (Optional)
+bio: "Learn Python in a simple and interactive way!"
+
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+# **Python for Absolute Beginners**
+Welcome to this **beginner-friendly Python course**! 🚀 Python is a powerful programming language used for **AI, web development, data science, and automation**. Let's get started!
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+---
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+## 🟢 **Lesson 1: Introduction to Python**
+Python is a **simple, readable, and widely used** programming language. You don’t need any prior coding experience to start learning.
 
-## Video
+### **Why Python?**
+✅ Easy to learn  
+✅ Used in AI, data science, and web development  
+✅ Has a large community and many free resources  
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
-
-{{< youtube D2vj0WcvH5c >}}
-
-**Youtube**:
-
-    {{</* youtube w7Ft2ymGmfc */>}}
-
-**Bilibili**:
-
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
-
-**Video file**
-
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
-
-    {{</* video src="my_video.mp4" controls="yes" */>}}
-
-## Podcast
-
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
-
-    {{</* audio src="ambient-piano.mp3" */>}}
-
-Try it out:
-
-{{< audio src="ambient-piano.mp3" >}}
-
-## Test students
-
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
+To check if Python is installed on your computer, open a terminal or command prompt and type:
+```sh
+python --version
 ```
+If you see a version like `Python 3.x.x`, you’re good to go! Otherwise, download Python from [python.org](https://www.python.org/downloads/).
 
-renders as
+---
 
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
+## 🟢 **Lesson 2: Writing Your First Python Program**
+In Python, you don’t need to compile your code. Just write and run it!
 
-## Math
-
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
-
-To render _inline_ or _block_ math, wrap your LaTeX math with `{{</* math */>}}$...${{</* /math */>}}` or `{{</* math */>}}$$...$${{</* /math */>}}`, respectively.
-
-{{% callout note %}}
-We wrap the LaTeX math in the Hugo Blox _math_ shortcode to prevent Hugo rendering our math as Markdown.
-{{% /callout %}}
-
-Example **math block**:
-
-```latex
-{{</* math */>}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-{{< /math >}}
-
-Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-{{</* math */>}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-{{< /math >}}
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
-
-
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
-
-renders as
-
+📌 **Example: Print "Hello, World!"**
 ```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
+print("Hello, World!")
+```
+📝 **Explanation:**  
+- `print()` is a built-in function that **displays text**.  
+- The text inside `""` (double quotes) is what will be displayed.
+
+Try it yourself in a Python editor like [Replit](https://replit.com/) or [Google Colab](https://colab.research.google.com/).
+
+---
+
+## 🟢 **Lesson 3: Variables & Data Types**
+A **variable** is like a storage box for values.
+
+📌 **Example: Storing Values in Variables**
+```python
+name = "Mohamed"
+age = 26
+height = 1.75
+is_student = True
+
+print(name, age, height, is_student)
+```
+📝 **Explanation:**
+- `"Mohamed"` → **String (text)**
+- `26` → **Integer (whole number)**
+- `1.75` → **Float (decimal number)**
+- `True` → **Boolean (True/False value)**
+
+---
+
+## 🟢 **Lesson 4: Taking User Input**
+You can ask the user for input using `input()`.
+
+📌 **Example: Asking for a Name**
+```python
+name = input("What is your name? ")
+print("Hello, " + name + "!")
+```
+📝 **Explanation:**
+- `input()` collects user input as a string.
+- `+` **concatenates (joins)** text.
+
+Try it by running the code in a Python editor!
+
+---
+
+## 🟢 **Lesson 5: If Statements (Logic)**
+Python can make decisions with **if-else** statements.
+
+📌 **Example: Checking if a Number is Positive**
+```python
+number = int(input("Enter a number: "))
+
+if number > 0:
+    print("This is a positive number!")
+elif number < 0:
+    print("This is a negative number!")
+else:
+    print("The number is zero.")
+```
+📝 **Explanation:**
+- `if` checks if the condition is **True**.
+- `elif` (else if) checks another condition.
+- `else` runs when no conditions are met.
+
+---
+
+## 🟢 **Lesson 6: Loops (For & While)**
+Loops **repeat** actions multiple times.
+
+📌 **Example: Using a `for` loop to Print Numbers**
+```python
+for i in range(1, 6):
+    print(i)
+```
+📌 **Example: Using a `while` loop**
+```python
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+```
+📝 **Explanation:**
+- `for` loops iterate over a sequence.
+- `while` loops continue **until** a condition becomes False.
+
+---
+
+## 🟢 **Lesson 7: Functions (Reusable Code)**
+Functions help **reuse code** and keep programs organized.
+
+📌 **Example: Creating a Function**
+```python
+def greet(name):
+    print("Hello, " + name + "!")
+
+greet("Mohamed")
+greet("Alice")
+```
+📝 **Explanation:**
+- `def` defines a function.
+- Functions **accept parameters** (like `name`).
+- You can call the function **multiple times**.
+
+---
+
+## 🟢 **Lesson 8: Lists (Storing Multiple Values)**
+A list stores **multiple items**.
+
+📌 **Example: Working with Lists**
+```python
+fruits = ["Apple", "Banana", "Cherry"]
+
+print(fruits[0])  # First item
+fruits.append("Orange")  # Add an item
+print(fruits)
+```
+📝 **Explanation:**
+- Lists are **ordered** and can be **modified**.
+- Use `.append()` to add items.
+
+---
+
+## 🎯 **Challenge: Mini Project**
+Now, try this **simple Python project**: A **basic calculator**! 🧮  
+📌 **Example: Simple Calculator**
+```python
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+operation = input("Choose operation (+, -, *, /): ")
+
+if operation == "+":
+    result = num1 + num2
+elif operation == "-":
+    result = num1 - num2
+elif operation == "*":
+    result = num1 * num2
+elif operation == "/":
+    result = num1 / num2
+else:
+    result = "Invalid operation!"
+
+print("Result:", result)
+```
+✅ Run it and test different operations!
+
+---
+
+## 🎉 **Congratulations! You Completed the Basics!**
+You now know how to:
+✅ Write Python code  
+✅ Use variables, loops, and functions  
+✅ Take user input and make decisions  
+
+🚀 **Next Steps:**
+🔹 Try **solving coding challenges** on [LeetCode](https://leetcode.com/)  
+🔹 Learn **data science** with Python libraries like `Pandas`  
+🔹 Explore **AI & machine learning** with `TensorFlow` and `PyTorch`
+
+---
+
+📩 **Need help? Contact me at** [m.asenhoury@hotmail.com](mailto:m.asenhoury@hotmail.com)  
+💡 **Follow my work on GitHub:** [github.com/mohamed-senhoury](https://github.com/mohamed-senhoury)
 ```
 
-## Inline Images
-
-```go
-{{</* icon name="python" */>}} Python
-```
-
-renders as
-
-{{< icon name="python" >}} Python
-
-## Did you find this page helpful? Consider sharing it 🙌
+---
