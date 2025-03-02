@@ -23,13 +23,14 @@ sections:
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
+          # Add your image background to `assets/media/`
           filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+
   - block: markdown
     content:
       title: '🚀 My Work in AI & Data Science'
@@ -46,7 +47,7 @@ sections:
 
         If you're interested in **collaborating on AI projects**, feel free to reach out! 📩
 
-          - block: collection
+  - block: collection
     id: projects
     content:
       title: AI & Data Science Projects
@@ -76,10 +77,29 @@ sections:
         📥 **Download the Jupyter Notebook Below!**
       button:
         text: "Download Sentiment Analysis Notebook"
-        url: "uploads/Sentiment_Analysis.ipynb"
+        url: "https://github.com/MSenhoury/Sentiment-Analysis"
       image:
         filename: sentiment-analysis.jpg
         caption: "AI-based Sentiment Analysis using NLP & Machine Learning"
+
+  - block: markdown
+    content:
+      title: "🎤 My Talk at BIG DATA & AI 2022"
+      text: |-
+        I presented my **AI Model from Clini'IA** at the **BIG DATA & AI 2022** conference. My work focused on **building an NLP model for intelligent data processing**, showcasing how AI can optimize decision-making in large-scale data environments.
+
+        🔹 **Project Highlights:**
+        - Fine-tuning **BERT-based NLP models** for structured data processing
+        - AI-driven **automation for medical and industrial applications**
+        - Performance benchmarking against traditional NLP solutions
+
+        📢 **Want to learn more? Click below!**
+      button:
+        text: "Read More About My Talk"
+        url: "https://msenhoury.github.io/talks"
+      image:
+        filename: big-data-ai-2022.jpg
+        caption: "Presenting my NLP model at BIG DATA & AI 2022"
 
   - block: markdown
     content:
@@ -88,9 +108,9 @@ sections:
         If you're interested in my AI projects, check out my **GitHub repository** where I share open-source implementations of **NLP models, AI automation, and Data Science solutions**.
 
         🔹 **Recent Projects:**
-        - [Fine-Tuned GPT Model](https://github.com/mohamed-senhoury/gpt-fine-tuning)
-        - [AI Chatbot with LangChain](https://github.com/mohamed-senhoury/langchain-chatbot)
-        - [SQL-Based AI Data Analysis](https://github.com/mohamed-senhoury/sql-ai-analysis)
+        - [Document Processing and Summarization System](https://github.com/MSenhoury/document-processing-summarization)
+        - [Chatbot](https://github.com/MSenhoury/Chatbot)
+      
 
         **Follow my work on GitHub and contribute!**
       button:

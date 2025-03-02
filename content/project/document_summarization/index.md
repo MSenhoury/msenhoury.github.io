@@ -1,7 +1,7 @@
 ---
-title: Pandas
-date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+title: Document Processing and Summarization System
+date: 2023-05-20
+external_link: https://github.com/MSenhoury/document-processing-summarization
 tags:
   - Hugo
   - Wowchemy
