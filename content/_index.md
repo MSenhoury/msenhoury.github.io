@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "Mohamed SENHOURY"
 date: 2022-10-24
 type: landing
 
@@ -45,4 +45,56 @@ sections:
         I'm passionate about **solving complex problems with AI** and constantly explore **new ways to optimize AI-driven automation**.
 
         If you're interested in **collaborating on AI projects**, feel free to reach out! 📩
+
+          - block: collection
+    id: projects
+    content:
+      title: AI & Data Science Projects
+      text: "Explore my AI & NLP projects, including sentiment analysis, chatbots, and automation."
+      filters:
+        folders:
+          - project
+    design:
+      view: citation
+
+  - block: markdown
+    content:
+      title: "📝 Sentiment Analysis Model"
+      text: |-
+        This project is a **Machine Learning & Deep Learning-based Sentiment Analysis model** designed to classify tweets as **positive or negative**.
+
+        **Key Features:**
+        - **Preprocessing**: Tokenization, stopword removal, stemming
+        - **Feature Engineering**: TF-IDF vectorization
+        - **Models Trained**: Naïve Bayes, SVM, Logistic Regression, and TensorFlow-based Deep Learning
+        - **Performance Metrics**: Accuracy, Confusion Matrix, Classification Report
+
+        📊 **Dataset:** Processed tweets with labeled sentiment  
+        🏆 **Best Performing Model:** SVM with TF-IDF  
+        🚀 **Use Case:** Social media sentiment analysis for brand monitoring  
+
+        📥 **Download the Jupyter Notebook Below!**
+      button:
+        text: "Download Sentiment Analysis Notebook"
+        url: "uploads/Sentiment_Analysis.ipynb"
+      image:
+        filename: sentiment-analysis.jpg
+        caption: "AI-based Sentiment Analysis using NLP & Machine Learning"
+
+  - block: markdown
+    content:
+      title: "💻 Explore More on GitHub"
+      text: |-
+        If you're interested in my AI projects, check out my **GitHub repository** where I share open-source implementations of **NLP models, AI automation, and Data Science solutions**.
+
+        🔹 **Recent Projects:**
+        - [Fine-Tuned GPT Model](https://github.com/mohamed-senhoury/gpt-fine-tuning)
+        - [AI Chatbot with LangChain](https://github.com/mohamed-senhoury/langchain-chatbot)
+        - [SQL-Based AI Data Analysis](https://github.com/mohamed-senhoury/sql-ai-analysis)
+
+        **Follow my work on GitHub and contribute!**
+      button:
+        text: "View My GitHub"
+        url: "https://github.com/mohamed-senhoury"
+
 ---
