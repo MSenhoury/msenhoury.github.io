@@ -1,5 +1,5 @@
 ---
-title: "Mohamed SENHOURY"
+title: Learn Python
 role: "Data Scientist | Generative AI & NLP Specialist"
 superuser: true
 highlight_name: true
