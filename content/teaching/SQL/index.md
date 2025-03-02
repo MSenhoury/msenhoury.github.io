@@ -258,11 +258,3 @@ Now, **try to create your own database** and **write queries** for it!
 📩 **Need help? Contact me at** [m.asenhoury@hotmail.com](mailto:m.asenhoury@hotmail.com)  
 💡 **Follow my work on GitHub:** [github.com/mohamed-senhoury](https://github.com/mohamed-senhoury)
 ```
-
----
-
-### ✅ **Why This Lesson?**
-✔ **Follows the same structure as your Python/NLP lessons**  
-✔ **Covers SQL from basics to advanced queries**  
-✔ **Includes real-world data science applications**  
-✔ **Uses math formulas to explain SQL logic**  
