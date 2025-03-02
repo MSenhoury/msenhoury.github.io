@@ -1,28 +1,16 @@
 ---
-title: Learn Python
-role: "Data Scientist | Generative AI & NLP Specialist"
-superuser: true
-highlight_name: true
-
-social:
-  - icon: "at-symbol"
-    url: "mailto:m.asenhoury@hotmail.com"
-  - icon: "brands/linkedin"
-    url: "https://www.linkedin.com/in/mohamed-senhoury/"
-  - icon: "brands/github"
-    url: "https://github.com/mohamed-senhoury"
-
-interests:
-  - Artificial Intelligence
-  - Natural Language Processing (NLP)
-  - Data Science
-  - Cloud Computing
-
-# Short bio for blog post footer (Optional)
-bio: "Learn Python in a simple and interactive way!"
-
+title: "Learn Python"
+date: 2025-03-02
+type: "docs"
+math: false
+tags:
+  - Python
+  - Programming
+  - Beginner
+image:
+  caption: "Learn Python step by step with easy examples."
+bio: "Master Python in a simple and interactive way!"
 ---
-
 # **Python for Absolute Beginners**
 Welcome to this **beginner-friendly Python course**! 🚀 Python is a powerful programming language used for **AI, web development, data science, and automation**. Let's get started!
 
