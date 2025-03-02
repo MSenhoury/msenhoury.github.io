@@ -112,3 +112,4 @@ sections:
     design:
       card:
         css_class: "bg-primary-700"
+---
