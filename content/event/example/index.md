@@ -51,7 +51,7 @@ image:
   focal_point: Center
 
 # Links to slides, GitHub code, and video recording
-url_code: 'https://github.com/mohamed-senhoury/sentiment-analysis'
+url_code: 'https://github.com/msenhoury/sentiment-analysis'
 url_pdf: ''
 url_slides: 'https://fr.slideshare.net/secret/uykbwualD63EOt'
 
