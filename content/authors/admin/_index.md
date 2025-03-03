@@ -160,12 +160,12 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Azure AI Fundamentals
-    url: https://www.microsoft.com/
+    url: https://www.credly.com/badges/f98e3515-31b5-4ccf-bb15-ecd5f2724887/public_url
     date: '2022-10-01'
     awarder: Microsoft
 
   - title: Azure Fundamentals
-    url: https://www.microsoft.com/
+    url: https://www.credly.com/badges/f98e3515-31b5-4ccf-bb15-ecd5f2724887/public_url
     date: '2022-03-01'
     awarder: Microsoft
 
@@ -175,17 +175,17 @@ awards:
     awarder: Microsoft & LinkedIn Learning
 
   - title: AI for Business Leaders
-    url: static/uploads/Certificat_intelligence_artificielle.pdf
+    url: https://msenhoury.github.io/uploads/Certificat_intelligence_artificielle.pdf
     date: '2024-02-01'
     awarder: Microsoft & LinkedIn Learning
 
   - title: Cybersecurity Career Preparation
-    url: static/uploads/Certificat_cybersecurite.pdf
+    url: https://msenhoury.github.io/uploads/Certificat_cybersecurite.pdf
     date: '2024-02-01'
     awarder: Microsoft & LinkedIn Learning
 
   - title: Data Analyst Career Preparation
-    url: static/uploads/CertificatDaccomplissement_analyste_de_donnees.pdf
+    url: https://msenhoury.github.io/uploads/CertificatDaccomplissement_analyste_de_donnees.pdf
     date: '2024-02-01'
     awarder: Microsoft & LinkedIn Learning
 

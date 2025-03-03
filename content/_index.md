@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: static/uploads/resume.pdf
+        url: msenhoury.github.io/static/uploads/CV_2025_EN.pdf
     design:
       css_class: dark
       background:
