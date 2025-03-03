@@ -12,10 +12,10 @@ address:
   postcode: '75017'
   country: France
 
-summary: Presentation of my AI model developed during Clini'IA, focusing on sentiment analysis and NLP automation.
+summary: Presentation of my AI model developed during Clinic'IA, focusing on sentiment analysis and NLP automation.
 abstract: |
   In this talk at **BIG DATA & AI 2022**, I presented my **Machine Learning & Deep Learning-based Sentiment Analysis model**. 
-  The model was developed as part of my work in **Clini'IA**, leveraging **Natural Language Processing (NLP) and AI-driven automation**.
+  The model was developed as part of my work in **Clinic'IA**, leveraging **Natural Language Processing (NLP) and AI-driven automation**.
 
   The presentation covered:
   - **Fine-tuning Transformer-based NLP models**
@@ -53,8 +53,7 @@ image:
 # Links to slides, GitHub code, and video recording
 url_code: 'https://github.com/mohamed-senhoury/sentiment-analysis'
 url_pdf: ''
-url_slides: 'https://slideshare.net/mohamed-senhoury'
-url_video: 'https://youtube.com/mohamed-senhoury'
+url_slides: 'https://fr.slideshare.net/secret/uykbwualD63EOt'
 
 # Markdown Slides (optional).
 slides: "big-data-ai-2022-slides"
@@ -77,13 +76,10 @@ During **BIG DATA & AI 2022**, I presented my **Sentiment Analysis Model**, whic
 - **Deep Learning Integration**: TensorFlow-based LSTM network for improved accuracy
 - **Use Cases**: Social media monitoring, customer feedback analysis, healthcare NLP solutions
 
-## 🎥 **Watch the Presentation**
-Missed the event? You can watch my talk here:  
-
 ## 📥 **Download the Presentation**
 🔹 [**Slides from my talk**](https://fr.slideshare.net/secret/uykbwualD63EOt)  
 🔹 [**Jupyter Notebook with Sentiment Analysis Model**](static/uploads/Sentiment Analysis.ipynb)  
 
 ## 💻 **Explore More on GitHub**
 Check out the full project repository with all **code, datasets, and models**:
-🔗 [**GitHub Repository**](https://github.com/mohamed-senhoury/sentiment-analysis)
+🔗 [**GitHub Repository**](https://github.com/MSenhoury/Sentiment-Analysis)

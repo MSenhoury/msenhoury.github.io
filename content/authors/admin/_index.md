@@ -175,17 +175,17 @@ awards:
     awarder: Microsoft & LinkedIn Learning
 
   - title: AI for Business Leaders
-    url: https://www.linkedin.com/
+    url: static/uploads/Certificat_intelligence_artificielle.pdf
     date: '2024-02-01'
     awarder: Microsoft & LinkedIn Learning
 
   - title: Cybersecurity Career Preparation
-    url: https://www.linkedin.com/
+    url: static/uploads/Certificat_cybersecurite.pdf
     date: '2024-02-01'
     awarder: Microsoft & LinkedIn Learning
 
   - title: Data Analyst Career Preparation
-    url: https://www.linkedin.com/
+    url: static/uploads/CertificatDaccomplissement_analyste_de_donnees.pdf
     date: '2024-02-01'
     awarder: Microsoft & LinkedIn Learning
 
