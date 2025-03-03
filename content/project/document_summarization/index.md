@@ -8,6 +8,6 @@ tags:
   - Markdown
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Developed an AI-powered text summarization model using Transformer-based architectures (BERT, T5) to generate concise and meaningful summaries from large documents, optimizing for readability, accuracy, and context retention.
 
 <!--more-->

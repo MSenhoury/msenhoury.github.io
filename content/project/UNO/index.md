@@ -8,6 +8,6 @@ tags:
   - Markdown
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+Developed a multiplayer UNO card game in Java, implementing game logic, AI-driven opponent strategies, and real-time player interactions.
 
 <!--more-->
