@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Mohamed SENHOURY"
+title: ""
 date: 2022-10-24
 type: landing
 
@@ -11,7 +11,7 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
+      # Choose a user profile to display (a folder name within content/authors/)
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
@@ -23,98 +23,103 @@ sections:
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`
+          # Add your image background to assets/media/.
           filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
-
   - block: markdown
     content:
-      title: '🚀 My Work in AI & Data Science'
+      title: '📚 My Research'
       subtitle: ''
       text: |-
-        I specialize in **Artificial Intelligence, NLP, and Data Science**, with a strong focus on **Generative AI, Large Language Models (LLMs), and automation**.
+        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-        My expertise includes:
-        - 🔹 **Natural Language Processing (NLP)**: Chatbots, Sentiment Analysis, Named Entity Recognition  
-        - 🔹 **Generative AI & LLMs**: Fine-tuning GPT, LangChain, Hugging Face Transformers  
-        - 🔹 **Data Science & Analytics**: Data visualization, SQL, Machine Learning  
-
-        I'm passionate about **solving complex problems with AI** and constantly explore **new ways to optimize AI-driven automation**.
-
-        If you're interested in **collaborating on AI projects**, feel free to reach out! 📩
-
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        
+        Please reach out to collaborate 😃
+    design:
+      columns: '1'
   - block: collection
-    id: projects
+    id: papers
     content:
-      title: AI & Data Science Projects
-      text: "Explore my AI & NLP projects, including sentiment analysis, chatbots, and automation."
+      title: Featured Publications
       filters:
         folders:
-          - project
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
     design:
       view: citation
-
-  - block: markdown
+  - block: collection
+    id: talks
     content:
-      title: "📝 Sentiment Analysis Model"
-      text: |-
-        This project is a **Machine Learning & Deep Learning-based Sentiment Analysis model** designed to classify tweets as **positive or negative**.
-
-        **Key Features:**
-        - **Preprocessing**: Tokenization, stopword removal, stemming
-        - **Feature Engineering**: TF-IDF vectorization
-        - **Models Trained**: Naïve Bayes, SVM, Logistic Regression, and TensorFlow-based Deep Learning
-        - **Performance Metrics**: Accuracy, Confusion Matrix, Classification Report
-
-        📊 **Dataset:** Processed tweets with labeled sentiment  
-        🏆 **Best Performing Model:** SVM with TF-IDF  
-        🚀 **Use Case:** Social media sentiment analysis for brand monitoring  
-
-        📥 **Download the Jupyter Notebook Below!**
-      button:
-        text: "Download Sentiment Analysis Notebook"
-        url: "https://github.com/MSenhoury/Sentiment-Analysis"
-      image:
-        filename: sentiment-analysis.jpg
-        caption: "AI-based Sentiment Analysis using NLP & Machine Learning"
-
-  - block: markdown
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      view: article-grid
+      columns: 1
+  - block: collection
+    id: news
     content:
-      title: "🎤 My Talk at BIG DATA & AI 2022"
-      text: |-
-        I presented my **AI Model from Clini'IA** at the **BIG DATA & AI 2022** conference. My work focused on **building an NLP model for intelligent data processing**, showcasing how AI can optimize decision-making in large-scale data environments.
-
-        🔹 **Project Highlights:**
-        - Fine-tuning **BERT-based NLP models** for structured data processing
-        - AI-driven **automation for medical and industrial applications**
-        - Performance benchmarking against traditional NLP solutions
-
-        📢 **Want to learn more? Click below!**
-      button:
-        text: "Read More About My Talk"
-        url: "https://msenhoury.github.io/talks"
-      image:
-        filename: big-data-ai-2022.jpg
-        caption: "Presenting my NLP model at BIG DATA & AI 2022"
-
-  - block: markdown
+      title: Recent News
+      subtitle: ''
+      text: ''
+      # Page type to display. E.g. post, talk, publication...
+      page_type: post
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: date-title-summary
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
+  - block: cta-card
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: "💻 Explore More on GitHub"
+      title: 👉 Build your own academic website like this
       text: |-
-        If you're interested in my AI projects, check out my **GitHub repository** where I share open-source implementations of **NLP models, AI automation, and Data Science solutions**.
+        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
 
-        🔹 **Recent Projects:**
-        - [Document Processing and Summarization System](https://github.com/MSenhoury/document-processing-summarization)
-        - [Chatbot](https://github.com/MSenhoury/Chatbot)
-      
+        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
 
-        **Follow my work on GitHub and contribute!**
+        Easily build anything with blocks - no-code required!
+        
+        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
-        text: "View My GitHub"
-        url: "https://github.com/mohamed-senhoury"
-
+        text: Get Started
+        url: https://hugoblox.com/templates/
+    design:
+      card:
+        # Card background color (CSS class)
+        css_class: "bg-primary-700"
+        css_style: ""
 ---
