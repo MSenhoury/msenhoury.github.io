@@ -78,7 +78,7 @@ During **BIG DATA & AI 2022**, I presented my **Sentiment Analysis Model**, whic
 
 ## 📥 **Download the Presentation**
 🔹 [**Slides from my talk**](https://fr.slideshare.net/secret/uykbwualD63EOt)  
-🔹 [**Jupyter Notebook with Sentiment Analysis Model**](static/uploads/Sentiment Analysis.ipynb)  
+🔹 [**Jupyter Notebook with Sentiment Analysis Model**](http://msenhoury.github.io/uploads/Sentiment%20Analysis.ipynb)  
 
 ## 💻 **Explore More on GitHub**
 Check out the full project repository with all **code, datasets, and models**:
