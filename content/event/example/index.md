@@ -46,7 +46,7 @@ tags:
 featured: true
 
 image:
-  filename: big-data-ai-2022.jpg
+  filename: featured.jpg
   caption: "Presenting my AI model at BIG DATA & AI 2022"
   focal_point: Center
 
@@ -79,7 +79,6 @@ During **BIG DATA & AI 2022**, I presented my **Sentiment Analysis Model**, whic
 
 ## 🎥 **Watch the Presentation**
 Missed the event? You can watch my talk here:  
-🎬 [**Watch on YouTube**](https://youtube.com/mohamed-senhoury)
 
 ## 📥 **Download the Presentation**
 🔹 [**Slides from my talk**](https://slideshare.net/mohamed-senhoury)  
