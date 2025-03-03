@@ -24,8 +24,8 @@ role: Data Scientist | Generative AI & NLP Specialist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ''
-    url: ''
+  - name: "Amzil AI (Freelance Data Scientist)"
+    url: "https://www.taskaifrance.com/" 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
