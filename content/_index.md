@@ -1,75 +1,120 @@
 ---
-title: Example Talk
+# Leave the homepage title empty to use the site title
+title: "Mohamed SENHOURY"
+date: 2022-10-24
+type: landing
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+design:
+  # Default section spacing
+  spacing: "6rem"
 
-location: Hugo Blox Builder HQ
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+sections:
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: ""
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+    design:
+      css_class: dark
+      background:
+        color: black
+        image:
+          # Add your image background to `assets/media/`
+          filename: stacked-peaks.svg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+  - block: markdown
+    content:
+      title: '🚀 My Work in AI & Data Science'
+      subtitle: ''
+      text: |-
+        I specialize in **Artificial Intelligence, NLP, and Data Science**, with a strong focus on **Generative AI, Large Language Models (LLMs), and automation**.
 
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with #.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
-all_day: false
+        My expertise includes:
+        - 🔹 **Natural Language Processing (NLP)**: Chatbots, Sentiment Analysis, Named Entity Recognition  
+        - 🔹 **Generative AI & LLMs**: Fine-tuning GPT, LangChain, Hugging Face Transformers  
+        - 🔹 **Data Science & Analytics**: Data visualization, SQL, Machine Learning  
 
-# Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+        I'm passionate about **solving complex problems with AI** and constantly explore **new ways to optimize AI-driven automation**.
 
-authors:
-  - admin
+        If you're interested in **collaborating on AI projects**, feel free to reach out! 📩
 
-tags: []
+  - block: collection
+    id: projects
+    content:
+      title: AI & Data Science Projects
+      text: "Explore my AI & NLP projects, including sentiment analysis, chatbots, and automation."
+      filters:
+        folders:
+          - project
+    design:
+      view: citation
 
-# Is this a featured talk? (true/false)
-featured: false
+  - block: markdown
+    content:
+      title: "📝 Sentiment Analysis Model"
+      text: |-
+        This project is a **Machine Learning & Deep Learning-based Sentiment Analysis model** designed to classify tweets as **positive or negative**.
 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+        **Key Features:**
+        - **Preprocessing**: Tokenization, stopword removal, stemming
+        - **Feature Engineering**: TF-IDF vectorization
+        - **Models Trained**: Naïve Bayes, SVM, Logistic Regression, and TensorFlow-based Deep Learning
+        - **Performance Metrics**: Accuracy, Confusion Matrix, Classification Report
 
-#links:
-#  - icon: twitter
-#    icon_pack: fab
-#    name: Follow
-#    url: https://twitter.com/georgecushen
-url_code: 'https://github.com'
-url_pdf: ''
-url_slides: 'https://slideshare.net'
-url_video: 'https://youtube.com'
+        📊 **Dataset:** Processed tweets with labeled sentiment  
+        🏆 **Best Performing Model:** SVM with TF-IDF  
+        🚀 **Use Case:** Social media sentiment analysis for brand monitoring  
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. slides = "example-slides" references content/slides/example-slides.md.
-#   Otherwise, set slides = "".
-slides: ""
+        📥 **Download the Jupyter Notebook Below!**
+      button:
+        text: "Download Sentiment Analysis Notebook"
+        url: "https://github.com/MSenhoury/Sentiment-Analysis"
+      image:
+        filename: sentiment-analysis.jpg
+        caption: "AI-based Sentiment Analysis using NLP & Machine Learning"
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. projects = ["internal-project"] references content/project/deep-learning/index.md.
-#   Otherwise, set projects = [].
-projects:
-  - example
+  - block: markdown
+    content:
+      title: "🎤 My Talk at BIG DATA & AI 2022"
+      text: |-
+        I presented my **AI Model from Clini'IA** at the **BIG DATA & AI 2022** conference. My work focused on **building an NLP model for intelligent data processing**, showcasing how AI can optimize decision-making in large-scale data environments.
+
+        🔹 **Project Highlights:**
+        - Fine-tuning **BERT-based NLP models** for structured data processing
+        - AI-driven **automation for medical and industrial applications**
+        - Performance benchmarking against traditional NLP solutions
+
+        📢 **Want to learn more? Click below!**
+      button:
+        text: "Read More About My Talk"
+        url: "https://msenhoury.github.io/talks"
+      image:
+        filename: big-data-ai-2022.jpg
+        caption: "Presenting my NLP model at BIG DATA & AI 2022"
+
+  - block: markdown
+    content:
+      title: "💻 Explore More on GitHub"
+      text: |-
+        If you're interested in my AI projects, check out my **GitHub repository** where I share open-source implementations of **NLP models, AI automation, and Data Science solutions**.
+
+        🔹 **Recent Projects:**
+        - [Document Processing and Summarization System](https://github.com/MSenhoury/document-processing-summarization)
+        - [Chatbot](https://github.com/MSenhoury/Chatbot)
+      
+
+        **Follow my work on GitHub and contribute!**
+      button:
+        text: "View My GitHub"
+        url: "https://github.com/mohamed-senhoury"
+
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using slides parameter in the front matter of the talk file
-- **Upload** an existing slide deck to static/ and link using url_slides parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
