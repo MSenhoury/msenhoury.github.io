@@ -1,120 +1,90 @@
 ---
-# Leave the homepage title empty to use the site title
-title: "Mohamed SENHOURY"
-date: 2022-10-24
-type: landing
+title: "AI-Powered NLP: My Sentiment Analysis Model"
 
-design:
-  # Default section spacing
-  spacing: "6rem"
+event: BIG DATA & AI 2022
+event_url: https://bigdataparis.com/
 
-sections:
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: static/uploads/resume.pdf
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+location: Palais des Congrès de Paris
+address:
+  street: 2 Place de la Porte Maillot
+  city: Paris
+  region: Île-de-France
+  postcode: '75017'
+  country: France
 
-  - block: markdown
-    content:
-      title: '🚀 My Work in AI & Data Science'
-      subtitle: ''
-      text: |-
-        I specialize in **Artificial Intelligence, NLP, and Data Science**, with a strong focus on **Generative AI, Large Language Models (LLMs), and automation**.
+summary: Presentation of my AI model developed during Clini'IA, focusing on sentiment analysis and NLP automation.
+abstract: |
+  In this talk at **BIG DATA & AI 2022**, I presented my **Machine Learning & Deep Learning-based Sentiment Analysis model**. 
+  The model was developed as part of my work in **Clini'IA**, leveraging **Natural Language Processing (NLP) and AI-driven automation**.
 
-        My expertise includes:
-        - 🔹 **Natural Language Processing (NLP)**: Chatbots, Sentiment Analysis, Named Entity Recognition  
-        - 🔹 **Generative AI & LLMs**: Fine-tuning GPT, LangChain, Hugging Face Transformers  
-        - 🔹 **Data Science & Analytics**: Data visualization, SQL, Machine Learning  
+  The presentation covered:
+  - **Fine-tuning Transformer-based NLP models**
+  - **Building AI-powered sentiment analysis pipelines**
+  - **Evaluating performance using real-world social media datasets**
+  - **Deploying AI solutions for real-time text classification**
 
-        I'm passionate about **solving complex problems with AI** and constantly explore **new ways to optimize AI-driven automation**.
+  This project demonstrates how **AI-driven text processing** can be used in industries such as **healthcare, finance, and customer analytics**.
 
-        If you're interested in **collaborating on AI projects**, feel free to reach out! 📩
+date: '2022-09-26T14:00:00Z'
+date_end: '2022-09-26T15:00:00Z'
+all_day: false
 
-  - block: collection
-    id: projects
-    content:
-      title: AI & Data Science Projects
-      text: "Explore my AI & NLP projects, including sentiment analysis, chatbots, and automation."
-      filters:
-        folders:
-          - project
-    design:
-      view: citation
+# Schedule page publish date (NOT talk date).
+publishDate: '2022-09-01T00:00:00Z'
 
-  - block: markdown
-    content:
-      title: "📝 Sentiment Analysis Model"
-      text: |-
-        This project is a **Machine Learning & Deep Learning-based Sentiment Analysis model** designed to classify tweets as **positive or negative**.
+authors:
+  - Mohamed Senhoury
 
-        **Key Features:**
-        - **Preprocessing**: Tokenization, stopword removal, stemming
-        - **Feature Engineering**: TF-IDF vectorization
-        - **Models Trained**: Naïve Bayes, SVM, Logistic Regression, and TensorFlow-based Deep Learning
-        - **Performance Metrics**: Accuracy, Confusion Matrix, Classification Report
+tags:
+  - AI
+  - NLP
+  - Sentiment Analysis
+  - Machine Learning
+  - Generative AI
 
-        📊 **Dataset:** Processed tweets with labeled sentiment  
-        🏆 **Best Performing Model:** SVM with TF-IDF  
-        🚀 **Use Case:** Social media sentiment analysis for brand monitoring  
+# Is this a featured talk? (true/false)
+featured: true
 
-        📥 **Download the Jupyter Notebook Below!**
-      button:
-        text: "Download Sentiment Analysis Notebook"
-        url: "https://github.com/MSenhoury/Sentiment-Analysis"
-      image:
-        filename: sentiment-analysis.jpg
-        caption: "AI-based Sentiment Analysis using NLP & Machine Learning"
+image:
+  filename: big-data-ai-2022.jpg
+  caption: "Presenting my AI model at BIG DATA & AI 2022"
+  focal_point: Center
 
-  - block: markdown
-    content:
-      title: "🎤 My Talk at BIG DATA & AI 2022"
-      text: |-
-        I presented my **AI Model from Clini'IA** at the **BIG DATA & AI 2022** conference. My work focused on **building an NLP model for intelligent data processing**, showcasing how AI can optimize decision-making in large-scale data environments.
+# Links to slides, GitHub code, and video recording
+url_code: 'https://github.com/mohamed-senhoury/sentiment-analysis'
+url_pdf: ''
+url_slides: 'https://slideshare.net/mohamed-senhoury'
+url_video: 'https://youtube.com/mohamed-senhoury'
 
-        🔹 **Project Highlights:**
-        - Fine-tuning **BERT-based NLP models** for structured data processing
-        - AI-driven **automation for medical and industrial applications**
-        - Performance benchmarking against traditional NLP solutions
+# Markdown Slides (optional).
+slides: "big-data-ai-2022-slides"
 
-        📢 **Want to learn more? Click below!**
-      button:
-        text: "Read More About My Talk"
-        url: "https://msenhoury.github.io/talks"
-      image:
-        filename: big-data-ai-2022.jpg
-        caption: "Presenting my NLP model at BIG DATA & AI 2022"
-
-  - block: markdown
-    content:
-      title: "💻 Explore More on GitHub"
-      text: |-
-        If you're interested in my AI projects, check out my **GitHub repository** where I share open-source implementations of **NLP models, AI automation, and Data Science solutions**.
-
-        🔹 **Recent Projects:**
-        - [Document Processing and Summarization System](https://github.com/MSenhoury/document-processing-summarization)
-        - [Chatbot](https://github.com/MSenhoury/Chatbot)
-      
-
-        **Follow my work on GitHub and contribute!**
-      button:
-        text: "View My GitHub"
-        url: "https://github.com/mohamed-senhoury"
-
+# Projects associated with this talk
+projects:
+  - sentiment-analysis
+  - nlp-research
 ---
+
+{{% callout note %}}
+Click on the **Slides** button above to view my presentation slides.
+{{% /callout %}}
+
+## 🔹 **About This Talk**
+During **BIG DATA & AI 2022**, I presented my **Sentiment Analysis Model**, which utilizes:
+- **Preprocessing**: Tokenization, stopword removal, stemming
+- **Feature Engineering**: TF-IDF vectorization for text classification
+- **Machine Learning Models**: Naïve Bayes, SVM, Logistic Regression
+- **Deep Learning Integration**: TensorFlow-based LSTM network for improved accuracy
+- **Use Cases**: Social media monitoring, customer feedback analysis, healthcare NLP solutions
+
+## 🎥 **Watch the Presentation**
+Missed the event? You can watch my talk here:  
+🎬 [**Watch on YouTube**](https://youtube.com/mohamed-senhoury)
+
+## 📥 **Download the Presentation**
+🔹 [**Slides from my talk**](https://slideshare.net/mohamed-senhoury)  
+🔹 [**Jupyter Notebook with Sentiment Analysis Model**](uploads/Sentiment_Analysis.ipynb)  
+
+## 💻 **Explore More on GitHub**
+Check out the full project repository with all **code, datasets, and models**:
+🔗 [**GitHub Repository**](https://github.com/mohamed-senhoury/sentiment-analysis)
