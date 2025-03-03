@@ -32,14 +32,19 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🚀 My Work in AI & Data Science'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I specialize in **Artificial Intelligence, NLP, and Data Science**, with a strong focus on **Generative AI, Large Language Models (LLMs), and automation**.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        My expertise includes:
+        - 🔹 **Natural Language Processing (NLP)**: Chatbots, Sentiment Analysis, Named Entity Recognition  
+        - 🔹 **Generative AI & LLMs**: Fine-tuning GPT, LangChain, Hugging Face Transformers  
+        - 🔹 **Data Science & Analytics**: Data visualization, SQL, Machine Learning  
+
+        I'm passionate about **solving complex problems with AI** and constantly explore **new ways to optimize AI-driven automation**.
+
+        If you're interested in **collaborating on AI projects**, feel free to reach out! 📩
     design:
       columns: '1'
   - block: collection
